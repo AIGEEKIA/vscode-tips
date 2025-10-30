@@ -1,0 +1,21 @@
+{
+      "servers": {
+        "MCP_DOCKER": {
+          "command": "docker",
+          "args": [
+            "mcp",
+            "gateway",
+            "run"
+          ],
+          "type": "stdio"
+        },
+        "desktop-commander": {
+          "command": "npx",
+          "args": [
+            "-y",
+            "@wonderwhy-er/desktop-commander@latest"
+          ],
+          "type": "stdio"
+        }
+      }
+    }
